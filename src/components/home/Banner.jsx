@@ -17,7 +17,7 @@ const Banner = () => {
                 </div>
 
                 <div className="absolute z-30 max-w-[1240px] w-full mx-auto top-5 left-0 right-0  text-white h-full flex justify-center flex-col">
-                    <h2 className="pl-2 text-4xl font-bold leading-snug sm:text-6xl text-secondary">We create memorable <br /><span className="text-primary">digital experiences.</span></h2>
+                    <h2 className="pl-2 text-4xl font-bold leading-snug sm:text-6xl text-secondary">We create memorably <br /><span className="text-primary">digital experiences.</span></h2>
                     <p className="my-5 ml-3 text-xl leading-relaxed">Discover the chef in you with our mouth-watering recipe <br /> Where passion meets flavor in every dish <br /> Taste the difference of our handcrafted dishes
                     </p>
 
