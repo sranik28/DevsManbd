@@ -7,13 +7,13 @@ import {
 } from "react-icons/ri";
 import tofaelVai from "../../../public/our-team/tofael.jpg"
 import afrozApu from "../../../public/our-team/afroz.jpg"
-
+import '../our-team/our-team.css'
 import Image from "next/image";
 
 const OurTeamPage = () => {
 	return (
 		<div className="mx-auto ">
-			<div className="bg-[#ffffff]">
+			{/* <div className="bg-[#ffffff]">
 				<div
 					className="h-[60vh]  bg-[white] pb-5"
 					style={{
@@ -29,13 +29,27 @@ const OurTeamPage = () => {
 					Meet Our Clever Team
 				</h1>
 				<div className="bg-[#0DA1DB] w-[100px] mx-auto h-[6px]"></div>
+			</div> */}
+			<div className="w-full h-[60vh] relative">
+				<div className="before:content-[''] w-full h-[60vh] relative before:absolute before:bg-[#0000009f] before:z-20 before:top-0 before:right-0 before:left-0 before:bottom-0">
+
+					<Image className="object-cover" fill={true} src="https://i.ibb.co/s2pn0Bg/marvin-meyer-SYTO3xs06f-U-unsplash-min.jpg" alt='' />
+				</div>
+
+				<div className="absolute z-30 max-w-[1240px] w-full mx-auto top-5 left-0 right-0  text-white h-full flex justify-center flex-col">
+					<h2 className='text-6xl text-center text-[white] pb-5 font-bold'>Devsmanbd Team</h2>
+				</div>
 			</div>
-			<div className="bg-[#E8ECF7] container grid  lg:grid-cols-3 mt-8 h-full">
-				<div className="duration-500 addClass hover:drop-shadow-2xl">
+			<h1 className="text-[50px] font-bold text-[#000000] pt-7 text-center">
+					Meet Our Clever Team
+				</h1>
+				<div className="bg-[#0DA1DB] w-[100px] mx-auto h-[6px]"></div>	
+			<div className="container grid h-full mt-8  lg:grid-cols-3">
+				<div className="duration-500 transform addClass hover:drop-shadow-xl hover:shadow-black/90 hover:scale-105">
 					<div className=" bg-white w-[358px] rounded-3xl mx-auto my-10 h-[431px]">
 						<div className="avatar pt-[35px] flex justify-center items-center">
 							<div className="w-[160px] relative  h-[160px]  rounded-full">
-								<Image fill={true} alt="team member image" className="rounded-full" src="https://i.ibb.co/YNX8jYx/Whats-App-Image-2023-07-22-at-12-20-30-AM.jpg" />
+								<Image fill={true} alt="team member image" className="duration-500 transform rounded-full hover:scale-105" src="https://i.ibb.co/YNX8jYx/Whats-App-Image-2023-07-22-at-12-20-30-AM.jpg" />
 							</div>
 						</div>
 
@@ -75,7 +89,7 @@ const OurTeamPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="duration-500 addClass hover:drop-shadow-2xl">
+				<div className="duration-500 addClass hover:drop-shadow-xl hover:shadow-black/90 hover:scale-105">
 					<div className=" bg-white w-[358px] rounded-3xl mx-auto my-10 h-[431px]">
 						<div className="avatar pt-[35px] flex justify-center items-center">
 							<div className="w-[160px] relative h-[160px]  rounded-full">
@@ -119,7 +133,7 @@ const OurTeamPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="duration-500 addClass hover:drop-shadow-2xl">
+				<div className="duration-500 addClass hover:drop-shadow-xl hover:shadow-black/90 hover:scale-105">
 					<div className=" bg-white w-[358px] rounded-3xl mx-auto my-10 h-[431px]">
 						<div className="avatar pt-[35px] flex justify-center items-center">
 							<div className="w-[160px] relative h-[160px] object-cover rounded-full">
@@ -163,11 +177,11 @@ const OurTeamPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="duration-500 addClass hover:drop-shadow-2xl">
+				<div className="duration-500 addClass hover:drop-shadow-xl hover:shadow-black/90 hover:scale-105">
 					<div className=" bg-white w-[358px] rounded-3xl mx-auto my-10 h-[431px]">
 						<div className="avatar pt-[35px] flex justify-center items-center">
 							<div className="w-[160px] relative h-[160px]  rounded-full">
-								<Image fill={true}  alt="team member image" className="rounded-full" src={afrozApu} />
+								<Image fill={true} alt="team member image" className="rounded-full" src={afrozApu} />
 							</div>
 						</div>
 
@@ -207,7 +221,7 @@ const OurTeamPage = () => {
 						</div>
 					</div>
 				</div>
-				{/* <div className="duration-500 addClass hover:drop-shadow-2xl">
+				{/* <div className="duration-500 addClass hover:drop-shadow-xl hover:shadow-black/90 hover:scale-105">
 					<div className=" bg-white w-[358px] rounded-3xl mx-auto my-10 h-[431px]">
 						<div className="avatar pt-[35px] flex justify-center items-center">
 							<div className="w-[160px] relative h-[160px]  rounded-full">

@@ -18,7 +18,7 @@ const NavBer = () => {
     return (
         <main className='sticky z-[1200] py-3 bg-white top-0'>
             <div className='container flex items-center justify-between'>
-               <Link href="/"><Image className='w-44' src={logo} alt='' /></Link>
+                <Link href="/"><Image className='w-44' src={logo} alt='' /></Link>
 
                 <span className='md:hidden'>
                     {
@@ -32,16 +32,24 @@ const NavBer = () => {
                         </Navlink>
                     </li>
                     <li className='hover:text-[#4e4feb] hover:duration-500'>
-                        <Navlink href="/about"  >About</Navlink>
+                        <Navlink href="/about">
+                            About
+                        </Navlink>
                     </li>
                     <li className='hover:text-[#4e4feb] hover:duration-500'>
-                        <Navlink href="/our-projects">Our Project</Navlink>
+                        <Navlink href="/our-projects">
+                            Our Project
+                        </Navlink>
                     </li>
                     <li className='hover:text-[#4e4feb] hover:duration-500'>
-                        <Navlink href="/our-team">Our Team</Navlink>
+                        <Navlink href="/our-team">
+                            Our Team
+                        </Navlink>
                     </li>
                     <li className='hover:text-[#4e4feb] hover:duration-500'>
-                        <Navlink href="/service">Service</Navlink>
+                        <Navlink href="/service">
+                            Service
+                        </Navlink>
                     </li>
                     <Link href="/contact"><button className='px-4 py-2 btn '>Contact</button></Link>
                 </ul>
