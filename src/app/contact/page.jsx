@@ -1,15 +1,17 @@
+"use client"
+
 import Link from 'next/link';
 import {  BsFacebook, BsYoutube, BsLinkedin } from "react-icons/bs";
 import {  AiOutlineTwitter } from "react-icons/ai";
 import contact from "../../../public/contact/contact.jpg"
 import Image from 'next/image';
+import { Fade } from 'react-awesome-reveal';
 
 const ContactPage = () => {
     return (
         <div className="container grid gap-10 mt-20 font-light md:grid-cols-2">
-            <div className=''>
-                {/* <Fade delay={50} direction="left"> */}
-                {/* <img className="w-full rounded-md" src={imge} alt="" /> */}
+            <div>
+                <Fade delay={50} direction="left">
                 <Image className="w-full rounded-md" src={contact} alt="" />
                 <h1 className="text-2xl text-[#068fff] font-semibold mt-8">Devsmanbd</h1>
                 <p className="my-4 font-semibold ">I am available for freelance or remote work. Connect with me via and call in to my account or contact with me a send message.</p>
@@ -17,7 +19,6 @@ const ContactPage = () => {
                 <p className="font-semibold ">Email: info@devsmanbd.com</p>
                 <div>
                     <h1 className="mt-6 text-lg font-semibold ">FIND US</h1>
-                    {/* <div className="flex gap-4 mt-6"> */}
                         <div className="flex items-center mt-4 ">
                             <Link
                                 href="https://www.facebook.com/devsmanbd"
@@ -43,14 +44,11 @@ const ContactPage = () => {
                             >
                                 <BsLinkedin />
                             </Link>
-                        </div>
-                        {/* <Link target="_blank" to="https://www.linkedin.com/in/tofael005/" className="text-3xl hover:bg-black/30 hover:text-[#FF024F] duration-300 p-6 shadow-md  shadow-[#131619] scale-90 hover:scale-105 ease-in rounded-md text-gray-300"><FiLinkedin /></Link> */}
-                        {/* <Link className="text-3xl hover:bg-black/30 hover:text-[#FF024F] duration-300 p-6 shadow-md  shadow-[#131619] scale-90 hover:scale-105 ease-in rounded-md text-gray-300"><FaInstagram /></Link> */}
-                    {/* </div> */}
+                        </div>                       
                 </div>
-                {/* </Fade> */}
+                </Fade>
             </div>
-            {/* <Fade delay={50} direction="right"> */}
+            <Fade delay={50} direction="right">
             <div className="">
                 <form  >
                     <label className='font-semibold' htmlFor="">YOUR NAME</label> <br />
@@ -64,7 +62,7 @@ const ContactPage = () => {
                     <input className="w-full font-normal cursor-pointer shadow-md shadow-black/50 p-4 rounded-md border border-white/20 hover:text-[#4e4feb] hover:font-bold duration-300" type="submit" value="SEND MESSAGE" />
                 </form>
             </div>
-            {/* </Fade> */}
+            </Fade>
         </div>
     );
 };
