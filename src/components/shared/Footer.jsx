@@ -1,5 +1,6 @@
 import { BsFillTelephoneFill, BsFacebook, BsYoutube, BsLinkedin } from "react-icons/bs";
 import { AiOutlineTwitter,  } from "react-icons/ai";
+import { MdEmail  } from "react-icons/md";
 
 import Link from 'next/link';
 
@@ -22,6 +23,12 @@ const Footer = () => {
                     <BsFillTelephoneFill/>
                   </span>
                   <span>+88 01703825046</span>
+                </p>
+                <p className="flex items-center mt-4 text-sm font-medium text-dark">
+                  <span className="mr-3 text-primary">
+                    <MdEmail className="text-lg"/>
+                  </span>
+                  <span>info@devsmanbd.com</span>
                 </p>
               </div>
             </div>
@@ -70,14 +77,14 @@ const Footer = () => {
                       Service
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/contact"
                       className="inline-block mb-2 text-base leading-loose text-body-color hover:text-primary"
                     >
                       Contact
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
