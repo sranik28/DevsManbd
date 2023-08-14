@@ -22,7 +22,7 @@ const Footer = () => {
                   <span className="mr-3 text-primary">
                     <BsFillTelephoneFill/>
                   </span>
-                  <span>+88 01703825046</span>
+                  <span>+880 17038 25046</span>
                 </p>
                 <p className="flex items-center mt-4 text-sm font-medium text-dark">
                   <span className="mr-3 text-primary">
