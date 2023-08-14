@@ -6,6 +6,7 @@ import {
 	RiTwitterFill,
 } from "react-icons/ri";
 import tofaelVai from "../../../public/our-team/tofael.jpg"
+import afrozApu from "../../../public/our-team/afroz.jpg"
 
 import Image from "next/image";
 
@@ -162,20 +163,20 @@ const OurTeamPage = () => {
 						</div>
 					</div>
 				</div>
-				{/* <div className="duration-500 addClass hover:drop-shadow-2xl">
+				<div className="duration-500 addClass hover:drop-shadow-2xl">
 					<div className=" bg-white w-[358px] rounded-3xl mx-auto my-10 h-[431px]">
 						<div className="avatar pt-[35px] flex justify-center items-center">
 							<div className="w-[160px] relative h-[160px]  rounded-full">
-								<Image fill={true}  alt="team member image" className="rounded-full" src="https://i.ibb.co/ynSJcd5/129303963-2799082077sdfsdf017088-4714356675360439919-n-1.jpg" />
+								<Image fill={true}  alt="team member image" className="rounded-full" src={afrozApu} />
 							</div>
 						</div>
 
 						<div>
 							<h1 className="text-[28px] duration-500 leading-snug text-center pt-6 text-black font-semibold ">
-								Sagor Ahmed{" "}
+								Afroz{" "}
 							</h1>
 							<p className="text-center font-[13px] text-[#9E9E9E] mb-5">
-								Founder & CEO, Web Developer
+								Co-Founder &  Marketing Manager
 							</p>
 
 							<div>
@@ -206,7 +207,7 @@ const OurTeamPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="duration-500 addClass hover:drop-shadow-2xl">
+				{/* <div className="duration-500 addClass hover:drop-shadow-2xl">
 					<div className=" bg-white w-[358px] rounded-3xl mx-auto my-10 h-[431px]">
 						<div className="avatar pt-[35px] flex justify-center items-center">
 							<div className="w-[160px] relative h-[160px]  rounded-full">
