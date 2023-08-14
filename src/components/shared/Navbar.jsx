@@ -26,21 +26,21 @@ const NavBer = () => {
                     }
                 </span>
                 <ul className={`font-semibold  flex items-center duration-300 flex-col py-5 md:p-0 text-white bg-opacity-90 md:text-black top-20 bg-black md:bg-transparent w-full md:w-auto md:flex-row gap-6   absolute md:static z-50 ${toggle ? "left-0" : "-left-full"}`}>
-                    <li className='hover:text-[#4e4feb]'>
+                    <li className='hover:text-[#4e4feb] hover:duration-500'>
                         <Navlink href="/">
                             Home
                         </Navlink>
                     </li>
-                    <li className='hover:text-[#4e4feb]'>
+                    <li className='hover:text-[#4e4feb] hover:duration-500'>
                         <Navlink href="/about"  >About</Navlink>
                     </li>
-                    <li className='hover:text-[#4e4feb]'>
+                    <li className='hover:text-[#4e4feb] hover:duration-500'>
                         <Navlink href="/our-projects">Our Project</Navlink>
                     </li>
-                    <li className='hover:text-[#4e4feb]'>
+                    <li className='hover:text-[#4e4feb] hover:duration-500'>
                         <Navlink href="/our-team">Our Team</Navlink>
                     </li>
-                    <li className='hover:text-[#4e4feb]'>
+                    <li className='hover:text-[#4e4feb] hover:duration-500'>
                         <Navlink href="/service">Service</Navlink>
                     </li>
                     <Link href="/contact"><button className='px-4 py-2 btn '>Contact</button></Link>
