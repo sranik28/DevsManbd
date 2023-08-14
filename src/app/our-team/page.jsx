@@ -181,23 +181,23 @@ const OurTeamPage = () => {
 
 							<div>
 								<div className="flex justify-center gap-3 mt-16 text-3xl">
-									<a href="https://twitter.com/developerSagor">
+									<a href="">
 										<div className="p-[7px] bg-[#A1A1A1] hover:bg-[#2BA1E9] duration-500 rounded-full">
 											<RiTwitterFill className="text-white "></RiTwitterFill>
 										</div>
 									</a>
-									<a href="https://www.facebook.com/sagorahmed090400/">
+									<a href="">
 										<div className="p-[7px] bg-[#A1A1A1] hover:bg-[#4A6399] duration-500 rounded-full">
 											<RiFacebookFill className="text-white"></RiFacebookFill>
 										</div>
 									</a>
-									<a href="https://www.instagram.com/sagorahmed090400/">
+									<a href="">
 										<div className="p-[7px] bg-[#A1A1A1] hover:bg-[#E400E9] duration-500 rounded-full">
 											<RiInstagramFill className="text-white"></RiInstagramFill>
 										</div>
 									</a>
 
-									<a href="https://www.linkedin.com/in/sagor-ahmed-02a472271/">
+									<a href="">
 										<div className="p-[7px] bg-[#A1A1A1] hover:bg-[#0A66C2] duration-500 rounded-full">
 											<FaLinkedinIn className="text-white "></FaLinkedinIn>
 										</div>
