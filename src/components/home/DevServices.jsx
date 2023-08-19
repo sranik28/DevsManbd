@@ -5,6 +5,8 @@
 //         <main className='container mt-[140px]'>
 //             <div className='text-center'>
 
+import Image from "next/image";
+
 //                 <h2 className='mb-5 text-3xl font-medium'>Our MERN Stack <span className='text-primary'>Development Services</span></h2>
 //                 <p className='mb-16'>MERN Stack enables many developers to make highly efficient web applications. At Groovy Web, we perform hard to enrich mobile and web applications user experience with our professional MERN full stack development solutions. We offer MERN stack web development services to different business domains from eCommerce, Food, Job, Sports, and Healthcare to Education. Our skilled MERN Stack Developers have helped businesses of all levels scale their business, regardless of whether a Startup or an enterprise-level company.</p>
 //             </div>
@@ -57,13 +59,13 @@ const DevServices = () => {
             </p>
 
             <div className="justify-center lg:flex mt-14 ">
-                <img
+                <Image data-aos="fade-up-right"
                     className="w-[530px] h-[370px] object-cover"
                     src="https://ignitebpo.biz/wp-content/uploads/2021/04/telemarketing-services-2.jpg"
-                    alt=""
+                    alt="" width={800} height={100}
                 />
 
-                <div className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
+                <div data-aos="fade-up-left" className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
                     <h2 className="text-4xl font-semibold text-center pt-14">
                         CMS Development
                     </h2>
@@ -79,7 +81,7 @@ const DevServices = () => {
             </div>
 
             <div className="justify-center lg:flex mt-14 ">
-                <div className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
+                <div data-aos="fade-up-right" className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
                     <h2 className="text-4xl font-semibold text-center pt-14">
                         Digital Marketing
                     </h2>
@@ -94,21 +96,21 @@ const DevServices = () => {
                         </button>
                     </div>
                 </div>
-                <img
+                <Image data-aos="fade-up-left"
                     className="w-[530px] h-[370px] object-cover"
                     src="https://ignitebpo.biz/wp-content/uploads/2021/04/Digital-Marketing-Services-Ignite-BPO-e1619636459276.jpg"
-                    alt=""
+                    alt="" width={800} height={100}
                 />
             </div>
 
             <div className="justify-center lg:flex mt-14 ">
-                <img
+                <Image data-aos="fade-up-right"
                     className="w-[530px] h-[370px] object-cover"
                     src="https://ignitebpo.biz/wp-content/uploads/2021/04/Web-Design-Services.jpg"
-                    alt=""
+                    alt="" width={800} height={100}
                 />
 
-                <div className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
+                <div data-aos="fade-up-left" className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
                     <h2 className="text-4xl font-semibold text-center pt-14">
                         Web Design &<br /> Development
                     </h2>
@@ -125,9 +127,7 @@ const DevServices = () => {
             </div>
 
             <div className="justify-center lg:flex mt-14 ">
-
-
-                <div className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
+                <div data-aos="fade-up-right" className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
                     <h2 className="text-4xl font-semibold text-center pt-14">
                         E-commerce Application Development
                     </h2>
@@ -140,20 +140,20 @@ const DevServices = () => {
                         </button>
                     </div>
                 </div>
-                <img
+                <Image data-aos="fade-up-left"
                     className="w-[530px] h-[370px] object-cover"
                     src="https://ignitebpo.biz/wp-content/uploads/2021/04/Web-Design-Services.jpg"
-                    alt=""
+                    alt="" width={800} height={100}
                 />
             </div>
 
             <div className="justify-center lg:flex mt-14 ">
-                <img
+                <Image data-aos="fade-up-right"
                     className="w-[530px] h-[370px] object-cover"
                     src="https://ignitebpo.biz/wp-content/uploads/2021/05/rsz_customer_support.jpg"
-                    alt=""
+                    alt="" width={800} height={100}
                 />
-                <div className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
+                <div data-aos="fade-up-left" className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
                     <h2 className="text-4xl font-semibold text-center pt-14">
                         Customer Support
                     </h2>

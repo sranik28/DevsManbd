@@ -58,7 +58,8 @@ const FAQ = () => {
                 {
                     data.map((faq, i) =>
                         <div key={i}>
-                            <div className="flex gap-6 py-3 duration-300 border-b-4 rounded-lg hover:border-secondary md:h-[180px]">
+                            <div data-aos="fade-up"
+                                data-aos-duration="3000" className="flex gap-6 py-3 duration-300 border-b-4 rounded-lg hover:border-secondary md:h-[180px]">
                                 <Image className="w-14 h-14" src={faqImg}></Image>
                                 <div>
                                     <h1 className="mb-3 text-xl font-bold">{faq.question}</h1>
