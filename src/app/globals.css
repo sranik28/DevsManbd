@@ -10,5 +10,5 @@
   @apply hover:text-[#5e5eef] text-[#5e5eef]
 }
 .btn{
-  @apply bg-secondary hover:bg-[#5e5eef] text-white rounded-md
+  @apply bg-secondary hover:bg-[#267dfc] duration-500 text-white rounded-md
 }

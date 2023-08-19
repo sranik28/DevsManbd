@@ -63,7 +63,7 @@ const DevServices = () => {
                     alt=""
                 />
 
-                <div className="lg:w-[530px] lg:h-[370px] bg-[#cfe0ef]">
+                <div className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
                     <h2 className="text-4xl font-semibold text-center pt-14">
                         CMS Development
                     </h2>
@@ -71,7 +71,7 @@ const DevServices = () => {
                         We are well trusted in building CMS by leveraging our expertise in MERN Stack technology. Our developed CMS will be robust, rich-in-features, secure, fast, easy-to-use, etc.
                     </p>
                     <div className="text-center">
-                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5 hover:bg-black duration-500 rounded-md mx-auto">
+                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5 btn duration-500 rounded-md mx-auto">
                             Read More
                         </button>
                     </div>
@@ -79,7 +79,7 @@ const DevServices = () => {
             </div>
 
             <div className="justify-center lg:flex mt-14 ">
-                <div className="lg:w-[530px] lg:h-[370px] bg-[#D4E6F6]">
+                <div className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
                     <h2 className="text-4xl font-semibold text-center pt-14">
                         Digital Marketing
                     </h2>
@@ -89,7 +89,7 @@ const DevServices = () => {
                         channels
                     </p>
                     <div className="text-center">
-                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5 hover:bg-black duration-500 rounded-md mx-auto">
+                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5 btn duration-500 rounded-md mx-auto">
                             Read More
                         </button>
                     </div>
@@ -108,7 +108,7 @@ const DevServices = () => {
                     alt=""
                 />
 
-                <div className="lg:w-[530px] lg:h-[370px] bg-[#D4E6F6]">
+                <div className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
                     <h2 className="text-4xl font-semibold text-center pt-14">
                         Web Design &<br /> Development
                     </h2>
@@ -117,7 +117,7 @@ const DevServices = () => {
                         develop corporate, business & educational site
                     </p>
                     <div className="text-center">
-                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5 hover:bg-black duration-500 rounded-md mx-auto">
+                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5 btn rounded-md mx-auto">
                             Read More
                         </button>
                     </div>
@@ -127,7 +127,7 @@ const DevServices = () => {
             <div className="justify-center lg:flex mt-14 ">
 
 
-                <div className="lg:w-[530px] lg:h-[370px] bg-[#D4E6F6]">
+                <div className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
                     <h2 className="text-4xl font-semibold text-center pt-14">
                         E-commerce Application Development
                     </h2>
@@ -135,7 +135,7 @@ const DevServices = () => {
                         In our experience, we have developed several wonderful e-commerce sites using MERN stack technology along with facilitating admin panels, payment gateway, cart, user verification features.
                     </p>
                     <div className="text-center">
-                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5 hover:bg-black duration-500 rounded-md mx-auto">
+                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5 btn rounded-md mx-auto">
                             Read More
                         </button>
                     </div>
@@ -153,7 +153,7 @@ const DevServices = () => {
                     src="https://ignitebpo.biz/wp-content/uploads/2021/05/rsz_customer_support.jpg"
                     alt=""
                 />
-                <div className="lg:w-[530px] lg:h-[370px] bg-[#D4E6F6]">
+                <div className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
                     <h2 className="text-4xl font-semibold text-center pt-14">
                         Customer Support
                     </h2>
@@ -162,7 +162,7 @@ const DevServices = () => {
                         best customer support to any kind of organizations
                     </p>
                     <div className="text-center">
-                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5 hover:bg-black duration-500 rounded-md mx-auto">
+                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5  btn rounded-md mx-auto">
                             Read More
                         </button>
                     </div>

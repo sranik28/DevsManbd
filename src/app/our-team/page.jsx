@@ -63,9 +63,9 @@ const OurTeamPage = () => {
 
 							<div>
 								<div className="flex justify-center gap-3 mt-16 text-3xl">
-									<a href="https://twitter.com/developerSagor">
-										<div className="p-[7px] bg-[#A1A1A1] hover:bg-[#2BA1E9] duration-500 rounded-full">
-											<RiTwitterFill className="text-white "></RiTwitterFill>
+									<a target="_blank" href="https://twitter.com/developerSagor">
+										<div target="_blank" className="p-[7px] bg-[#A1A1A1] hover:bg-[#2BA1E9] duration-500 rounded-full">
+											<RiTwitterFill target="_blank" className="text-white "></RiTwitterFill>
 										</div>
 									</a>
 									<a href="https://www.facebook.com/sagorahmed090400/">
