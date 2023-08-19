@@ -26,27 +26,27 @@ const NavBer = () => {
                     }
                 </span>
                 <ul className={`font-semibold  flex items-center duration-300 flex-col py-5 md:p-0 text-white bg-opacity-90 md:text-black top-20 bg-black md:bg-transparent w-full md:w-auto md:flex-row gap-6   absolute md:static z-50 ${toggle ? "left-0" : "-left-full"}`}>
-                    <li className='hover:text-[#4e4feb] hover:duration-500'>
+                    <li className='hover:text-[#4e4feb] hover:duration-500' onClick={()=>setToggle(false)}>
                         <Navlink href="/">
                             Home
                         </Navlink>
                     </li>
-                    <li className='hover:text-[#4e4feb] hover:duration-500'>
+                    <li className='hover:text-[#4e4feb] hover:duration-500' onClick={()=>setToggle(false)}>
                         <Navlink href="/about">
                             About
                         </Navlink>
                     </li>
-                    <li className='hover:text-[#4e4feb] hover:duration-500'>
+                    <li className='hover:text-[#4e4feb] hover:duration-500' onClick={()=>setToggle(false)}>
                         <Navlink href="/our-projects">
                             Our Project
                         </Navlink>
                     </li>
-                    <li className='hover:text-[#4e4feb] hover:duration-500'>
+                    <li className='hover:text-[#4e4feb] hover:duration-500' onClick={()=>setToggle(false)}>
                         <Navlink href="/our-team">
                             Our Team
                         </Navlink>
                     </li>
-                    <li className='hover:text-[#4e4feb] hover:duration-500'>
+                    <li className='hover:text-[#4e4feb] hover:duration-500' onClick={()=>setToggle(false)}>
                         <Navlink href="/service">
                             Service
                         </Navlink>

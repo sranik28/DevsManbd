@@ -45,8 +45,8 @@ const OurTeamPage = () => {
 				</h1>
 				<div className="bg-[#0DA1DB] w-[100px] mx-auto h-[6px]"></div>	
 			<div className="container grid h-full mt-8 lg:grid-cols-3">
-				<div className="duration-500 transform addClass hover:drop-shadow-xl hover:shadow-black/90 hover:scale-105">
-					<div className=" bg-white w-[358px] rounded-3xl mx-auto my-10 h-[431px] border border-slate-500 ">
+				<div className="duration-500 addClass hover:drop-shadow-xl hover:shadow-black/90 hover:scale-105">
+					<div className=" bg-white w-[358px] rounded-3xl mx-auto my-10 h-[431px] hover:border hover:border-slate-500 ">
 						<div className="avatar pt-[35px] flex justify-center items-center">
 							<div className="w-[160px] relative  h-[160px]  rounded-full">
 								<Image fill={true} alt="team member image" className="duration-500 transform rounded-full hover:scale-105" src="https://i.ibb.co/YNX8jYx/Whats-App-Image-2023-07-22-at-12-20-30-AM.jpg" />
@@ -134,7 +134,7 @@ const OurTeamPage = () => {
 					</div>
 				</div>
 				<div className="duration-500 addClass hover:drop-shadow-xl hover:shadow-black/90 hover:scale-105">
-					<div className=" bg-white w-[358px] rounded-3xl mx-auto my-10 h-[431px]">
+					<div className=" bg-white w-[358px] rounded-3xl mx-auto my-10 h-[431px] hover:border hover:border-slate-500">
 						<div className="avatar pt-[35px] flex justify-center items-center">
 							<div className="w-[160px] relative h-[160px] object-cover rounded-full">
 								<Image fill={true} alt="team member image" className="duration-500 transform rounded-full hover:scale-105" src={tofaelVai} />
@@ -178,7 +178,7 @@ const OurTeamPage = () => {
 					</div>
 				</div>
 				<div className="duration-500 addClass hover:drop-shadow-xl hover:shadow-black/90 hover:scale-105">
-					<div className=" bg-white w-[358px] rounded-3xl mx-auto my-10 h-[431px]">
+					<div className=" bg-white w-[358px] rounded-3xl mx-auto my-10 h-[431px] hover:border hover:border-slate-500">
 						<div className="avatar pt-[35px] flex justify-center items-center">
 							<div className="w-[160px] relative h-[160px]  rounded-full">
 								<Image fill={true} alt="team member image" className="duration-500 transform rounded-full hover:scale-105" src={afrozApu} />
