@@ -8,11 +8,11 @@ const nextConfig = {
             },
         ],
     },
-    experimental:{
-        appDir: true,
-        serverComponentsExternalPackages:["mongodb"],
-        serverActions:true
-    }
+    // experimental:{
+    //     appDir: true,
+    //     serverComponentsExternalPackages:["mongodb"],
+    //     serverActions:true
+    // }
 }
 
 module.exports = nextConfig
