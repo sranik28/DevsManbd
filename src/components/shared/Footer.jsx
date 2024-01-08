@@ -2,7 +2,6 @@
 import { BsFillTelephoneFill, BsFacebook, BsYoutube, BsLinkedin } from "react-icons/bs";
 import { AiOutlineTwitter, } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
-
 import Link from 'next/link';
 import ScrollToTop from "react-scroll-to-top";
 import MyIcon from "../MyIcon";
@@ -33,7 +32,7 @@ const Footer = () => {
                 <span className="mr-3 text-primary">
                   <MdEmail className="text-lg" />
                 </span>
-                <span>info@devsmanbd.com</span>
+                <span>dev@devsmanbd.com</span>
               </p>
             </div>
           </div>
@@ -176,7 +175,7 @@ const Footer = () => {
               <h4 className="text-lg font-semibold text-dark mb-9">Follow Us On</h4>
               <div className="flex items-center mb-6">
                 <Link
-                  href="https://www.facebook.com/devsmanbd"
+                  href="  "
                   className="text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
                 >
                   <BsFacebook />
@@ -185,11 +184,12 @@ const Footer = () => {
                   href="#"
                   className="text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
                 >
-                  <AiOutlineTwitter />
+                  <AiOutlineTwitter />  
+
                 </Link>
                 <Link
                   href="#"
-                  className="text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
+                  className="text-dark hover:bg-red-600  mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
                 >
                   <BsYoutube />
                 </Link>

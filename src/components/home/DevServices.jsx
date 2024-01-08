@@ -1,5 +1,3 @@
-
-
 // const DevServices = () => {
 //     return (
 //         <main className='container mt-[140px]'>
@@ -41,136 +39,176 @@ import Image from "next/image";
 
 // export default DevServices;
 
-
-
-
 const DevServices = () => {
-    return (
-        <div className="container mt-12">
-            <h1 className="text-4xl font-semibold text-center">
-                We Focus on Abilities More Than Everything Else
-            </h1>
-            <p className="text-lg text-center lg:w-[1150px] mx-auto mt-4 mb-20 ">
-                Adaptable and talented labor force make us hang out in the business
-                cycle and rethinking industry. In particular, we consistently put
-                resources into our kin by giving them admittance to premium courses by
-                conspicuous and ensured teachers from Hubspot Foundation and LinkedIn
-                Learning.
-            </p>
+  return (
+    <div className="container mt-12 overflow-hidden">
+      <h1 className="text-4xl font-semibold text-center">
+        We Focus on Abilities More Than Everything Else
+      </h1>
+      <p className="text-lg text-center lg:w-[1150px] mx-auto mt-4 mb-20 ">
+        Adaptable and talented labor force make us hang out in the business
+        cycle and rethinking industry. In particular, we consistently put
+        resources into our kin by giving them admittance to premium courses by
+        conspicuous and ensured teachers from Hubspot Foundation and LinkedIn
+        Learning.
+      </p>
 
-            <div className="justify-center lg:flex mt-14 ">
-                <Image data-aos="fade-up-right"
-                    className="w-[530px] h-[370px] object-cover"
-                    src="https://ignitebpo.biz/wp-content/uploads/2021/04/telemarketing-services-2.jpg"
-                    alt="" width={800} height={100}
-                />
+      {/* First Service */}
 
-                <div data-aos="fade-up-left" className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
-                    <h2 className="text-4xl font-semibold text-center pt-14">
-                        CMS Development
-                    </h2>
-                    <p className="text-base text-center w-10/12 mx-auto py-16 text-[#262626]">
-                        We are well trusted in building CMS by leveraging our expertise in MERN Stack technology. Our developed CMS will be robust, rich-in-features, secure, fast, easy-to-use, etc.
-                    </p>
-                    <div className="text-center">
-                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5 btn duration-500 rounded-md mx-auto">
-                            Read More
-                        </button>
-                    </div>
-                </div>
-            </div>
+      <div className="justify-center lg:flex mt-14 ">
+        <Image
+          data-aos="fade-up-right"
+          className="w-[530px] h-[370px] object-cover"
+          src="https://ignitebpo.biz/wp-content/uploads/2021/04/telemarketing-services-2.jpg"
+          alt=""
+          width={800}
+          height={100}
+        />
 
-            <div className="justify-center lg:flex mt-14 ">
-                <div data-aos="fade-up-right" className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
-                    <h2 className="text-4xl font-semibold text-center pt-14">
-                        Digital Marketing
-                    </h2>
-                    <p className="text-base text-center w-10/12 mx-auto py-16 text-[#262626]">
-                        Ignite BPO provides a complete digital marketing solutions for
-                        businesses. We will do branding for your company through digital
-                        channels
-                    </p>
-                    <div className="text-center">
-                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5 btn duration-500 rounded-md mx-auto">
-                            Read More
-                        </button>
-                    </div>
-                </div>
-                <Image data-aos="fade-up-left"
-                    className="w-[530px] h-[370px] object-cover"
-                    src="https://ignitebpo.biz/wp-content/uploads/2021/04/Digital-Marketing-Services-Ignite-BPO-e1619636459276.jpg"
-                    alt="" width={800} height={100}
-                />
-            </div>
-
-            <div className="justify-center lg:flex mt-14 ">
-                <Image data-aos="fade-up-right"
-                    className="w-[530px] h-[370px] object-cover"
-                    src="https://ignitebpo.biz/wp-content/uploads/2021/04/Web-Design-Services.jpg"
-                    alt="" width={800} height={100}
-                />
-
-                <div data-aos="fade-up-left" className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
-                    <h2 className="text-4xl font-semibold text-center pt-14">
-                        Web Design &<br /> Development
-                    </h2>
-                    <p className="text-base text-center w-10/12 mx-auto py-14 text-[#262626]">
-                        We provide web design & development services. We design and
-                        develop corporate, business & educational site
-                    </p>
-                    <div className="text-center">
-                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5 btn rounded-md mx-auto">
-                            Read More
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div className="justify-center lg:flex mt-14 ">
-                <div data-aos="fade-up-right" className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
-                    <h2 className="text-4xl font-semibold text-center pt-14">
-                        E-commerce Application Development
-                    </h2>
-                    <p className="text-base text-center w-10/12 mx-auto py-6 text-[#262626]">
-                        In our experience, we have developed several wonderful e-commerce sites using MERN stack technology along with facilitating admin panels, payment gateway, cart, user verification features.
-                    </p>
-                    <div className="text-center">
-                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5 btn rounded-md mx-auto">
-                            Read More
-                        </button>
-                    </div>
-                </div>
-                <Image data-aos="fade-up-left"
-                    className="w-[530px] h-[370px] object-cover"
-                    src="https://ignitebpo.biz/wp-content/uploads/2021/04/Web-Design-Services.jpg"
-                    alt="" width={800} height={100}
-                />
-            </div>
-
-            <div className="justify-center lg:flex mt-14 ">
-                <Image data-aos="fade-up-right"
-                    className="w-[530px] h-[370px] object-cover"
-                    src="https://ignitebpo.biz/wp-content/uploads/2021/05/rsz_customer_support.jpg"
-                    alt="" width={800} height={100}
-                />
-                <div data-aos="fade-up-left" className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md">
-                    <h2 className="text-4xl font-semibold text-center pt-14">
-                        Customer Support
-                    </h2>
-                    <p className="text-base text-center w-10/12 mx-auto py-16 text-[#262626]">
-                        We have trained up customer support professionals, We provide the
-                        best customer support to any kind of organizations
-                    </p>
-                    <div className="text-center">
-                        <button className="bg-[#1b1b1b]  text-white text-sm font-bold text-center py-3 px-5  btn rounded-md mx-auto">
-                            Read More
-                        </button>
-                    </div>
-                </div>
-
-            </div>
+        <div
+          data-aos="fade-up-left"
+          className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md"
+        >
+          <h2 className="text-4xl font-semibold text-center pt-14">
+            CMS Development
+          </h2>
+          <p className="text-base text-center w-10/12 mx-auto py-16 text-[#262626]">
+            We are well trusted in building CMS by leveraging our expertise in
+            MERN Stack technology. Our developed CMS will be robust,
+            rich-in-features, secure, fast, easy-to-use, etc.
+          </p>
+          <div className="text-center">
+            <button className="bg-[#1b1b1b] mb-5 md:mb-0 text-white text-sm font-bold text-center py-3 px-5 btn duration-500 rounded-md mx-auto">
+              Read More
+            </button>
+          </div>
         </div>
-    );
+      </div>
+
+      {/* Second Service  */}
+
+      <div className="justify-center md:flex lg:flex mt-14 ">
+        <div
+          data-aos="fade-up-right"
+          className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md"
+        >
+          <h2 className="text-4xl font-semibold text-center pt-14">
+            Digital Marketing
+          </h2>
+          <p className="text-base text-center w-10/12 mx-auto py-16 text-[#262626]">
+            Ignite BPO provides a complete digital marketing solutions for
+            businesses. We will do branding for your company through digital
+            channels
+          </p>
+          <div className="text-center">
+            <button className="bg-[#1b1b1b] mb-5 md:mb-0 text-white text-sm font-bold text-center py-3 px-5 btn duration-500 rounded-md mx-auto">
+              Read More
+            </button>
+          </div>
+        </div>
+        <Image
+          data-aos="fade-up-left"
+          className="w-[530px] h-[370px] object-cover"
+          src="https://ignitebpo.biz/wp-content/uploads/2021/04/Digital-Marketing-Services-Ignite-BPO-e1619636459276.jpg"
+          alt=""
+          width={800}
+          height={100}
+        />
+      </div>
+
+      {/* Third Service */}
+
+      <div className="justify-center lg:flex mt-14 ">
+        <Image
+          data-aos="fade-up-right"
+          className="w-[530px] h-[370px] object-cover"
+          src="https://ignitebpo.biz/wp-content/uploads/2021/04/Web-Design-Services.jpg"
+          alt=""
+          width={800}
+          height={100}
+        />
+
+        <div
+          data-aos="fade-up-left"
+          className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md"
+        >
+          <h2 className="text-4xl font-semibold text-center pt-14">
+            Web Design &<br /> Development
+          </h2>
+          <p className="text-base text-center w-10/12 mx-auto py-14 text-[#262626]">
+            We provide web design & development services. We design and develop
+            corporate, business & educational site
+          </p>
+          <div className="text-center">
+            <button className="bg-[#1b1b1b] mb-5 md:mb-0 text-white text-sm font-bold text-center py-3 px-5 btn rounded-md mx-auto">
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+
+{/* Fourth Service  */}
+
+      <div className="justify-center lg:flex mt-14 ">
+        <div
+          data-aos="fade-up-right"
+          className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md"
+        >
+          <h2 className="text-4xl font-semibold text-center pt-14">
+            E-commerce Application Development
+          </h2>
+          <p className="text-base text-center w-10/12 mx-auto py-6 text-[#262626]">
+            In our experience, we have developed several wonderful e-commerce
+            sites using MERN stack technology along with facilitating admin
+            panels, payment gateway, cart, user verification features.
+          </p>
+          <div className="text-center">
+            <button className="bg-[#1b1b1b] mb-5 md:mb-0 text-white text-sm font-bold text-center py-3 px-5 btn rounded-md mx-auto">
+              Read More
+            </button>
+          </div>
+        </div>
+        <Image
+          data-aos="fade-up-left"
+          className="w-[530px] h-[370px] object-cover"
+          src="https://ignitebpo.biz/wp-content/uploads/2021/04/Web-Design-Services.jpg"
+          alt=""
+          width={800}
+          height={100}
+        />
+      </div>
+
+{/* Fifth Service */}
+
+      <div className="justify-center lg:flex mt-14 ">
+        <Image
+          data-aos="fade-up-right"
+          className="w-[530px] h-[370px] object-cover"
+          src="https://ignitebpo.biz/wp-content/uploads/2021/05/rsz_customer_support.jpg"
+          alt=""
+          width={800}
+          height={100}
+        />
+        <div
+          data-aos="fade-up-left"
+          className="lg:w-[530px] lg:h-[370px] border border-[#267dfc] shadow-md shadow-black/30 rounded-md"
+        >
+          <h2 className="text-4xl font-semibold text-center pt-14">
+            Customer Support
+          </h2>
+          <p className="text-base text-center w-10/12 mx-auto py-16 text-[#262626]">
+            We have trained up customer support professionals, We provide the
+            best customer support to any kind of organizations
+          </p>
+          <div className="text-center">
+            <button className="bg-[#1b1b1b] mb-5 md:mb-0 text-white text-sm font-bold text-center py-3 px-5  btn rounded-md mx-auto">
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default DevServices;
